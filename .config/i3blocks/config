@@ -104,8 +104,8 @@ interval=10
 #
 # The battery instance defaults to 0.
 [battery]
-label=BAT
-#label=⚡
+#label=BAT
+label=⚡
 interval=30
 
 # Date Time
