@@ -4,6 +4,10 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt-get update
 sudo apt-get install fish
 sudo apt-get install i3 i3lock i3block xbacklight xautolock
+# background img viewer
+sudo apt-get install feh
 sudo apt-get install fzf jq copyq arandr python3 python3-tk
+sudo apt-get install redshift redshift-gtk
+sudo apt-get install fonts-font-awesome
 
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
