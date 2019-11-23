@@ -29,6 +29,13 @@ command=/usr/share/i3blocks/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
+# Date Time
+#
+[time]
+label=
+command=date '+%Y-%m-%d %H:%M:%S Week%W'
+interval=5
+
 # Volume indicator
 #
 # The first parameter sets the step (and units to display)
@@ -48,7 +55,6 @@ signal=10
 [memory]
 label=
 #label=MEM
-separator=false
 interval=30
 
 #[memory]
@@ -64,7 +70,7 @@ interval=30
 # (defaults to 10 for 10%).
 [disk]
 #label=HOME
-label=
+label=:
 #DIR=/mnt/data
 interval=45
 
@@ -109,13 +115,6 @@ interval=10
 #label=BAT
 label=⚡
 interval=30
-
-# Date Time
-#
-[time]
-label=
-command=date '+%Y-%m-%d %H:%M:%S Week%W'
-interval=5
 
 [monitors]
 command=~/.config/i3blocks/monitor_manager/monitor_manager
