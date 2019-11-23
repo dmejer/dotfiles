@@ -36,8 +36,8 @@ markup=none
 # See the script for details.
 
 [volume]
-#label=♪
-label=VOL
+label=♪
+#label=VOL
 interval=once
 signal=10
 #STEP=5%
@@ -46,15 +46,16 @@ signal=10
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label=MEM
+label=
+#label=MEM
 separator=false
 interval=30
 
-[memory]
-label=SWAP
-instance=swap
-separator=false
-interval=30
+#[memory]
+#label=SWAP
+#instance=swap
+#separator=false
+#interval=30
 
 # Disk usage
 #
@@ -62,9 +63,10 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=HOME
+#label=HOME
+label=
 #DIR=/mnt/data
-interval=30
+interval=45
 
 # Network interface monitoring
 #
@@ -78,7 +80,7 @@ separator=false
 
 [wifi]
 #INTERFACE=wlp3s0
-label=wifi:
+label=
 interval=10
 separator=false
 
@@ -111,6 +113,7 @@ interval=30
 # Date Time
 #
 [time]
+label=
 command=date '+%Y-%m-%d %H:%M:%S Week%W'
 interval=5
 
@@ -119,7 +122,8 @@ command=~/.config/i3blocks/monitor_manager/monitor_manager
 interval=once
 
 [shutdown_menu]
-full_text=Quit
+full_text=
+#full_text=Quit
 # If you are using FontAwesome, we recommend the power-off icon:
 # http://fontawesome.io/icon/power-off/
 command=~/.config/i3blocks/shutdown_menu/shutdown_menu
