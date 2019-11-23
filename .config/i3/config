@@ -220,8 +220,8 @@
   exec --no-startup-id i3-msg 'workspace $wsterm; exec /usr/bin/tilix'
   
   #redshift
-  exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
-  exec --no-startup-id redshift-gtk
+  #exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
+  exec --no-startup-id redshift
 
 # Assign {{{1
   for_window [class="spotify"] move to workspace $wsspotify

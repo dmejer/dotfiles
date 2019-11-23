@@ -116,9 +116,9 @@ interval=10
 label=⚡
 interval=30
 
-[monitors]
-command=~/.config/i3blocks/monitor_manager/monitor_manager
-interval=once
+#[monitors]
+#command=~/.config/i3blocks/monitor_manager/monitor_manager
+#interval=once
 
 [shutdown_menu]
 full_text=
