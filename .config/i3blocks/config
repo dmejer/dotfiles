@@ -116,6 +116,14 @@ interval=10
 label=⚡
 interval=30
 
+[volume-pulseaudio]
+command=~/.config/i3blocks/volume-pulseaudio/volume-pulseaudio
+interval=once
+signal=1
+#interval=persist
+#SUBSCRIBE1
+#USE_ALSA_NAME=1
+
 [monitors]
 command=~/.config/i3blocks/monitor_manager/monitor_manager
 interval=once
