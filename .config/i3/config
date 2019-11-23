@@ -31,7 +31,7 @@
 
 # start a terminal {{{1
   #bindsym $mod+Return exec i3-sensible-terminal
-  bindsym $mod+Return exec tilix
+  bindsym $mod+Return exec urxvt
 
 # kill focused window {{{1
   bindsym $mod+Shift+q kill
@@ -217,7 +217,7 @@
   exec --no-startup-id copyq
   exec --no-startup-id ~/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
 
-  exec --no-startup-id i3-msg 'workspace $wsterm; exec /usr/bin/tilix'
+  exec --no-startup-id i3-msg 'workspace $wsterm; exec /usr/bin/urxvt'
   
   #redshift
   #exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
