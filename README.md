@@ -4,5 +4,5 @@
 * i3 
 * i3blocks
 * redshift
-* fish-sheel, fisher
+* fish-shell with plugins (fzf, nvm, ssh-agent, prompt-metro)
 * uxrvt
