@@ -217,10 +217,10 @@
   exec --no-startup-id copyq
   exec --no-startup-id ~/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
 
-  exec --no-startup-id i3-msg 'workspace $wsterm; exec /usr/bin/urxvt'
+  #exec --no-startup-id i3-msg 'workspace $wsterm; exec /usr/bin/urxvt'
   
   #redshift
-  #exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
+  exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent 
   exec --no-startup-id redshift
 
 # Assign {{{1
