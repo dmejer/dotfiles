@@ -30,7 +30,7 @@ URxvt*scrollBar_right:  false
 URxvt.visualBell: true
 URxvt.iso14755: false
 
-*background:   [97]#282a36
+*background:   #282a36
 *foreground:   #eff0eb
 *cursorColor:  #9aedfe
 
@@ -50,3 +50,4 @@ URxvt.iso14755: false
 *color14:     #9aedfe
 *color7:      #eff0eb
 *color15:     #eff0eb
+
