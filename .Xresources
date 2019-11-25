@@ -35,20 +35,27 @@ URxvt.iso14755: false
 *foreground:   #eff0eb
 *cursorColor:  #9aedfe
 
-*color0:      #33303b
-*color8:      #4f4b58
-*color1:      #ff5c57
-*color9:      #ff5c57
-*color2:      #5af78e
-*color10:     #5af78e
-*color3:      #f3f99d
-*color11:     #f3f99d
-*color4:      #57c7ff
-*color12:     #57c7ff
-*color5:      #ff6ac1
-*color13:     #ff6ac1
-*color6:      #9aedfe
-*color14:     #9aedfe
-*color7:      #eff0eb
-*color15:     #eff0eb
-
+! black
+*color0:  #2E3436
+*color8:  #555753
+! red
+*color1:  #a40000
+*color9:  #EF2929
+! green
+*color2:  #4E9A06
+*color10: #8AE234
+! yellow
+*color3:  #C4A000
+*color11: #FCE94F
+! blue
+*color4:  #3465A4
+*color12: #729FCF
+! purple
+*color5:  #75507B
+*color13: #AD7FA8
+! orange (replaces cyan)
+*color6:  #ce5c00
+*color14: #fcaf3e
+! white
+*color7:  #babdb9
+*color15: #EEEEEC
