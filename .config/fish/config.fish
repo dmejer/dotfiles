@@ -8,5 +8,3 @@ abbr gsa 'git stash apply'
 abbr gl 'git pull'
 abbr gm 'git merge'
 abbr gp 'git push'
-
-fortune | cowsay
