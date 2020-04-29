@@ -10,3 +10,5 @@ abbr gm 'git merge'
 abbr gp 'git push'
 
 export GEM_HOME="$HOME/gems"
+set -g theme_display_ruby no 
+rvm default
