@@ -1,8 +1,9 @@
 # my dotfiles
 
-* yadm
+* yadm (to handle this repo)
 * zsh (with plugins)
-* uxrvt
+* guake (new version with split screan, awesome)
+* uxrvt (I was using on i3, maybe it's time to say goodbye?)
 
 # prerequisites
 ## package manager
