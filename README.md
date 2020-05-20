@@ -11,7 +11,6 @@
 sudo apt update
 sudo apt install fzf jq copyq python3 python3-tk
 sudo apt install fonts-font-awesome
-sudo apt install rxvt-unicode
 sudo apt install neovim
 ```
 ## zsh plugins - install manually
