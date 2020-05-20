@@ -5,5 +5,5 @@
 * uxrvt
 
 # prerequisites
-https://github.com/romkatv/powerlevel10k
-https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+* https://github.com/romkatv/powerlevel10k
+* https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
