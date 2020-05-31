@@ -2,6 +2,7 @@
 
 setxkbmap -option ctrl:nocaps
 sxhkd &
+xcompmgr -c &
 sh $HOME/.config/polybar/launch.sh
 
 bspc monitor -d I II III IV V VI VII VIII IX X
