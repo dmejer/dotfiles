@@ -29,12 +29,12 @@ git clone https://github.com/jaagr/polybar.git
 cd polybar
 ./build.sh
 ```
+## fnm
+```
+curl -fsSL https://github.com/Schniz/fnm/raw/master/.ci/install.sh | bash
+fnm install 10.16
+```
 
 ## zsh - install manually
-* https://ohmyz.sh/#install
-* https://github.com/romkatv/powerlevel10k
-* https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-
-# TODO:
-* transfer to pure-zsh? (https://www.reddit.com/r/zsh/comments/d40hb9/howto_speeding_up_zsh_and_ohmyzsh) :D
+* https://github.com/zsh-users/antigen
 
