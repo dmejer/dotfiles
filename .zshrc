@@ -11,6 +11,7 @@ antigen bundle fzf
 antigen bundle command-not-found
 antigen bundle node
 antigen bundle npm
+antigen bundle ssh-agent
 
 antigen theme romkatv/powerlevel10k
 
