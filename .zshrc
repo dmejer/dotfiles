@@ -11,10 +11,13 @@ source ~/.bin/antigen.zsh
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
+antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle git
 antigen bundle yarn
 antigen bundle fzf
 antigen bundle command-not-found
+antigen bundle node
+antigen bundle npm
 
 antigen theme romkatv/powerlevel10k
 
