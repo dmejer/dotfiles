@@ -24,9 +24,11 @@ antigen theme romkatv/powerlevel10k
 antigen apply
 # END ANTIGEN
 
+# oc
 export PATH="$HOME/oc:$PATH"
 export PATH="$HOME/.minishift/cache/oc/v3.11.0/linux:$PATH"
 
+# git aliases
 alias gl='git pull'
 alias gco='git checkout'
 alias gcom='git checkout master'
@@ -42,13 +44,6 @@ setopt HIST_FIND_NO_DUPS
 setopt inc_append_history
 setopt share_history
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-nvm alias default 10.16
-nvm use 10.16
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -59,4 +54,9 @@ export SDKMAN_DIR="/home/users/dmejer/.sdkman"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# no caps
 setxkbmap -option ctrl:nocaps
+
+# fnm
+export PATH=~/.fnm:$PATH
+fnm use 10.16
