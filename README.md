@@ -1,10 +1,10 @@
 # my dotfiles
 
 * yadm (to handle this repo)
-* oh-my-zsh
+* antigen
 * zsh (with plugins)
 * guake (new version with split screan, awesome)
-* uxrvt (I was using on i3, maybe it's time to say goodbye?)
+* uxrvt/kitty
 
 # prerequisites
 ## package manager
