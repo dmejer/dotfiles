@@ -32,10 +32,10 @@ alias gs='git stash'
 alias gsa='git stash apply'
 
 # history settings
-[ -z "$HISTFILE" ] && HISTFILE="$HOME/.zsh_history"
-HISTSIZE=99999
-HISTFILESIZE=999999
-SAVEHIST=$HISTSIZE
+export HISTFILE=~/.zsh_history
+export HISTSIZE=99999
+export HISTFILESIZE=999999
+export SAVEHIST="$HISTSIZE"
 
 ## History command configuration
 setopt extended_history       # record timestamp of command in HISTFILE
@@ -44,6 +44,9 @@ setopt hist_ignore_dups       # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
 setopt share_history          # share command history date
+setopt HIST_FIND_NO_DUPS      # skip duplicates
+setopt HIST_IGNORE_ALL_DUPS   # do not write duplicates to history
+setopt INC_APPEND_HISTORY     # immediate append commands to history
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
