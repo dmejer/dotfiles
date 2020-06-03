@@ -12,6 +12,8 @@ antigen bundle command-not-found
 antigen bundle node
 antigen bundle npm
 antigen bundle ssh-agent
+antigen bundle autojump
+antigen bundle history
 
 antigen theme romkatv/powerlevel10k
 
