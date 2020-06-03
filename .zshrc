@@ -20,6 +20,10 @@ antigen theme romkatv/powerlevel10k
 antigen apply
 # END ANTIGEN
 
+# colors
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
 # oc
 export PATH="$HOME/oc:$PATH"
 export PATH="$HOME/.minishift/cache/oc/v3.11.0/linux:$PATH"
