@@ -69,4 +69,5 @@ setxkbmap -option ctrl:nocaps
 
 # fnm
 export PATH=~/.fnm:$PATH
+eval "$(fnm env --multi)"
 fnm use 10.16
