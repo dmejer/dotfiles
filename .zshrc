@@ -24,8 +24,9 @@ antigen apply
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# auto suggestions color
+# auto suggestions
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 # oc
 export PATH="$HOME/oc:$PATH"
