@@ -74,4 +74,13 @@ setxkbmap -option ctrl:nocaps
 # fnm
 export PATH=~/.fnm:$PATH
 eval "$(fnm env --multi)"
-fnm use 10.16
+fnm use 10.17
+
+# custom aliases
+alias update-pom-deps='sh ~/Dokumenty/scripts/update-deps.sh'
+
+#ansible
+export PATH=~/.local/bin:$PATH
+
+#sdkman
+source "$HOME/.sdkman/bin/sdkman-init.sh"
